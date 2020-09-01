@@ -1,0 +1,22 @@
+{
+  "name": "ecomm-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aidfredd11/Ecomm-Site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aidfredd11/Ecomm-Site/issues"
+  },
+  "homepage": "https://github.com/aidfredd11/Ecomm-Site#readme",
+  "dependencies": {
+    "create-react-app": "^3.4.1"
+  }
+}

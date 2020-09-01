@@ -8,6 +8,13 @@ body {
     height: 100vh;
     margin: 0;
 }
+a{
+    text-decoration: none;
+    color: #090C9B;
+}
+a:hover{
+    color: #4682B4;
+}
 
 .grid-container{
     display: grid;
@@ -29,6 +36,9 @@ body {
     align-items: center;
     padding: 0.5rem;
 }
+.header a:hover {
+    color: #090C9B;
+}
 .brand a {
     color: white;
     font-size: 2.5rem;
@@ -36,7 +46,7 @@ body {
     text-decoration: none;
 }
 .header-links a{
-    color: white;
+    color: #3C3744;
     text-decoration: none;
 }
 .header-links a:hover{
@@ -52,4 +62,78 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Home Screen */
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.products li {
+    list-style-type: none;
+    padding: 0;
+    flex: 0 1 34rem;
+    margin: 1rem;
+    height: 50rem;
+    border-bottom: .1rem #dfdfdf solid;
+}
+
+.product{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.product-name{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.product-brand{
+    font-size: 1.2rem;
+    color: #3c3744;
+}
+.product-price{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.product-image{
+    max-width: 34rem;
+    max-height: 34rem;;
+}
+.product-rating{
+    margin-bottom: 1rem;
+}
+
+/* Side Bar*/
+.brand button {
+    font-size: 3rem;
+    padding: .5rem;
+    background: none;
+    border: none;
+    color: #3C3744;
+    cursor: pointer;
+}
+.sidebar{
+    position:fixed;
+    transform: translateX(-30rem);
+    width: 30rem;
+    background-color: #E0E2DB;
+    height: 100%;
+}
+.sidebar.open{
+    transform: translateX(0);
+}
+.sidebar-close-button{
+    border: .1rem #3C3744 solid;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+    padding-top: 0;
+    cursor: pointer;
+    position: absolute;
+    right: .5rem;
+    top: 1.5rem;
 }
