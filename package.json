@@ -17,6 +17,14 @@
   },
   "homepage": "https://github.com/aidfredd11/Ecomm-Site#readme",
   "dependencies": {
-    "create-react-app": "^3.4.1"
+    "create-react-app": "^3.4.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.5",
+    "@babel/core": "^7.11.5",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.5",
+    "nodemon": "^2.0.4"
   }
 }
