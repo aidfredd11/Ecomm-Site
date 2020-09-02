@@ -7,4 +7,4 @@ app.get("/api/products", (req,res) => {
     res.send(data.products);
 })
 
-app.listen(2121, () => {console.log("Server started at http://localhots:2121")})
+app.listen(5000, () => {console.log("Server started at http://localhost:5000/api/products")})

@@ -13,7 +13,7 @@ export default {
         _id:'1',
         name: 'Comfy Jogger Pants',
         category: 'Pants',
-        image: '/images/d1.jpg',
+        image: '/images/d2.jpg',
         price:75,
         brand: 'Under Armor',
         rating: 4.3,
